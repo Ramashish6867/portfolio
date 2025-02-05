@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow:scroll;
+}
+header{
+    background-color: #8f4848;
+    height:68px;
+    position: sticky;
+    top:0px;
+}
+.link{
+    display: flex;
+    margin: 0px 9px;
+    align-items: center;
+}
+.link h2{
+    margin: 17px 87px 13px 56px;
+}
+.link p a{
+    text-decoration: none;
+  margin: 10px 53px 0px 0px;
+  color: rgb(255, 255, 255);
+}
+
+.link p a:hover{
+color:#010000;
+}
+
+.port{
+    height:200px;
+    background-color: #eba8a8;
+    text-align:center ;
+    padding: 0px 0px 0px 0px;
+}
+
+.port h1{
+    padding: 76px 0px 0px 0px;
+}
+
+
+.about{
+    display: flex;
+    height: 800px;
+    background-color:#eba8a8;
+   
+}
+
+.aboutcontent{
+    width: 566px;
+  padding: 237px 205px;
+  font-family: "Baloo Bhai 2", serif;
+  font-size: larger;
+}
+
+
+.profile img{
+    width: 450px;
+    height: 514px;
+    padding: 129px 0px;
+    border-radius: 59%;
+}
+
+.skill{
+    display: flex;
+    height: 800px;
+    background-color: #9b8282;
+}
+
+
+.skillcontent{
+    padding: 164px 1px 0px 58px;
+    font-family: "Baloo Bhai 2", serif;
+    font-size: larger;
+
+}
+.skillcontent h2{
+    padding:0px 0px 32px 29px;
+
+}
+
+.skillimg img{
+    width: 585px;
+    height: 547px;
+    padding:108px 22px 0px 9px;
+    border-radius: 150px;
+}
+
+footer{
+    background-color: #647070;
+    height: 700px;
+}
+.contact{
+    display: flex;
+    height:700px;
+}
+
+.head{
+    padding-top: 31px;
+  padding-left: 680px;
+}
+
+.contact1 {
+    display: flex;
+
+}
+
+.address{
+    display: flex;
+}
+
+.logoAD img{
+    height:85px;
+background-color: #647070;
+padding: 57px 0px 0px 150px;
+}
+
+.addresscontent{
+  text-align: left;
+  padding:83px 0px 0px 15px;
+}
+
+.form{
+    height: 360px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.form p{
+    margin: 42px 0px 16px 0px;
+}
+
+.form input{
+    width: 231.667px;
+  height: 38px;
+  border: 2px solid black;
+}
+
+.form button{
+    width: 67px;
+    height: 28px;
+    border:#010000 solid 2px;
+    border-radius: 10px;
+}
